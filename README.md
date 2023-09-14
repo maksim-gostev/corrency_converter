@@ -16,5 +16,5 @@
 1. Создайте файл `.env`: скопируйте содержимое `.env_example` в новый файл `.env` в корневом каталоге проекта.
 2.  Запустите приложение FastAPI:
    ```bash
-   uvicorn main:app --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload
    ```
